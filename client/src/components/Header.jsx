@@ -54,10 +54,10 @@ export default function Header() {
         to='/'
         className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'
       >
-        <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-          Sahand's
+        <span className='px-2 py-1 bg-gradient-to-r from-blue-500 via-cyan-500 to-green-300 text-white'>
+          Digi
         </span>
-        Blog
+        Chronicles
       </Link>
       <form onSubmit={handleSubmit}>
         <TextInput
@@ -103,7 +103,7 @@ export default function Header() {
           </Dropdown>
         ) : (
           <Link to='/sign-in'>
-            <Button gradientDuoTone='purpleToBlue' outline>
+            <Button gradientDuoTone='greenToBlue' outline>
               Sign In
             </Button>
           </Link>
